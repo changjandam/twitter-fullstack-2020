@@ -61,11 +61,17 @@ const tweetService = {
     if (req.body.comment.length > 140) {
       return callback({ status: 'error', message: 'comment size should be smaller than 140!' })
     }
-    await Reply.create({
-      UserId: req.user.id,
-      TweetId: req.params.id,
-      comment: req.body.comment
-    })
+    // await Reply.create({
+    //   UserId: req.user.id,
+    //   TweetId: req.params.id,
+    //   comment: req.body.comment
+    // })
+
+    const reply = await Reply.create({})
+    console.log('into services/tweetService/line71...reply', reply)
+    const like = await Like.create({})
+    console.log('into services/tweetService/line73...like', like)
+
     return callback({ status: 'success', message: 'reply has been created successfully!' })
   }
 }
