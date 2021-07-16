@@ -6,6 +6,10 @@
 
 ![page_3](./screenshots/page_3.jpg)
 
+![page_4](./screenshots/page_4.jpg)
+
+![page_5](./screenshots/page_5.jpg)
+
 
 ## 功能
 * 使用者在首頁看到所有人的 tweet
@@ -13,7 +17,9 @@
 * 點擊任何一個 tweet 方塊，可以查看該 tweet 詳情及回覆串
 * 點擊任何一個 tweet 方塊中的 reply 圖示，可以對該 tweet 進行回覆
 * 可在首頁看到每一則 tweet 被喜歡的數量，以及被回覆的數量
+* 使用者可以跟別的使用者互動，跟隨別人，或喜歡一則 tweet
 * 使用者可以編輯自己的：帳號/名稱/email/密碼/大頭像/封面/自我介紹
+* 管理者可以瀏覽所有人、所有 tweet，並決定是否刪除一則 tweet
 
 ## 設定安裝
 
@@ -69,7 +75,6 @@ npm run dev
  * bcrypt-nodejs: 0.0.3
  * bcryptjs: 2.4.3
  * body-parser: 1.19.0
- * chai: 4.3.4
  * connect-flash: 0.1.1
  * dotenv: 10.0.0
  * express: 4.17.1
@@ -78,7 +83,6 @@ npm run dev
  * faker: 4.1.0
  * imgur-node-api: 0.1.0
  * method-override: 3.0.0
- * mocha: 6.0.2
  * moment: 2.29.1
  * multer: 1.4.2
  * mysql2: 1.7.0
@@ -86,9 +90,7 @@ npm run dev
  * passport-local: 1.0.0
  * sequelize: 4.44.4
  * sequelize-cli: 5.5.0
- * sinon: 7.5.0
- * sinon-chai: 3.7.0
-
+ 
 
 ## Author
 Jimmy, Kizuki, Elliot
